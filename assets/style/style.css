@@ -1,0 +1,504 @@
+header {
+    padding: 1px;
+    background-color: #24053E;
+    height: 481.71px;
+    border-radius: 26% 26% 43% 39% / 0% 0% 5% 5%;
+
+}
+
+@font-face {
+    font-family: 'Frauces';
+    src: url('/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('/assets/fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    color: white;
+}
+
+.nav {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.apply {
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.apply:hover{
+    color: #44FFA1;
+}
+
+.apply-container {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+
+    margin: 0px;
+}
+
+.br-costume {
+    width: 100%;
+    background-color: #44FFA1;
+    padding: 1px;
+}
+
+.head-describe {
+    text-align: center;
+    font-family: 'Fraunces';
+    font-size: 3em;
+}
+
+.describe-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.head-describe span {
+    border-bottom: 2px #44FFA1 solid;
+}
+
+.btn {
+    font-family: 'Manrope';
+    font-weight: bold;
+    border: none;
+    color: #24053E;
+    text-align: center;
+    width: 133px;
+    height: 55px;
+    background-color: #44FFA1;
+}
+
+.btn:hover{
+    color: #44FFA1;
+    background-color: #24053E;
+    border:1px solid #44FFA1
+}
+.img-phone {
+    margin-top: 15%;
+    width: 60%;
+    max-width: 780px;
+    height: 200px;
+    max-height: 441px;
+    /* rotate: 6deg; */
+    margin-left: 20%;
+}
+
+
+main {
+    width: 100%;
+    margin-top: 0px;
+    background-color: #FCF8FF;
+    height: 980px;
+    top: 400px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 26% 26% 43% 39% / 0% 0% 5% 5%;
+    padding-top: 150px;
+}
+
+main p {
+    color: #24053E;
+}
+
+
+
+.item {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.id-number {
+    font-size: 1.2em;
+    font-family: 'Frauces';
+    border-radius: 100%;
+    padding: 8px 18px;
+    border: 1px #24053E;
+    border-style: groove;
+}
+
+.title {
+    font-family: 'Frauces';
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.item h2 {
+    color: #24053E;
+}
+
+.content {
+    line-height: 2;
+    margin: 5px 5px;
+    font-family: 'Manrope';
+    font-size: 16px;
+}
+
+.img-founder {
+    width: 265px;
+    height: 267px;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 1300px;
+    z-index: -2;
+    padding-top: 200px;
+}
+
+.photo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24053E;
+    width: 343px;
+    height: 400px;
+    margin-top: -40px;
+}
+
+.photo-box h2 {
+    color: white;
+    font-family: 'Frauces';
+    font-size: 32px;
+    margin: 40px 5px 30px 5px;
+}
+
+.photo-box p{
+    font-family: 'Manrope';
+    line-height: 2;
+    margin: 10px 25px;
+}
+
+footer{
+background-color: #ffff;
+    width: 100%;
+    height: 150px;
+    top: 2300px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index:-99;
+}
+.social-media{
+    display: flex;
+    margin-top: 8px;
+}
+.social-media ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.social-media li{
+    margin: 5px;
+   list-style: none;
+}
+
+.pattern-head,.pattern3{
+    display: none;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (min-width: 768px)  {
+  
+header{
+   width: 100%;
+   min-height: 550px;
+}
+
+  .pattern-head{
+    display:block;
+  }
+
+  .pattern3{
+    display: block;
+  }
+   
+  .pattern-1{
+    width:100%;
+    height:400px;
+    position: absolute;
+    top:2%;
+    left:-55%;
+  }
+
+
+  .pattern3{
+    width:100%;
+    height:200px;
+    position: absolute;
+    bottom: 53px;
+    right: -200px;
+  }
+
+  .pattern-2{
+    width: 100%;
+    height: 180px;
+    position:absolute;
+    top: 25%;
+    right: -50%;
+  }
+
+   .describe-section{
+     width: 50%;
+     margin-left: 25%;
+      height:300px;
+   }
+
+   .img-phone{
+     width: 70%;
+     height: 300px;
+     margin-left: 15%;
+     margin-top: 5%;
+   }
+
+   main{
+    padding-top: 250px;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .item{
+    width: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 20%;
+   }
+
+
+
+   .id-number{
+    font-size: 2em;
+    margin-right: 15px;
+   }
+
+   .item-container{
+    text-align: start;
+    align-items: start;
+    }
+
+    .title{
+        font-size: 2em;
+    }
+
+    .content{
+        font-size:1em;
+    }
+  
+    aside{
+        display: flex ;
+        flex-direction: row;  
+        padding: 0px; 
+        padding-top: 300px;  
+    }
+
+    .img-founder{
+        margin-top: -300px;
+    }
+
+    .photo-box{
+        margin-left: -110px;
+        margin-top:180px;
+        width:500px;
+        height: 450px;
+        align-items: start;
+    }
+   
+    .photo-box p {
+        text-align: start;
+        margin-bottom: 15px;
+    }
+
+    .photo-box h2{
+        font-size: 3em;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .photo-box button{
+        margin-left: 20px;
+    }
+
+
+    footer{
+        top: 2500px;
+    }
+
+    .social-media li{
+       margin: 20px;
+       list-style: none;
+    }
+
+    footer img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+   header{
+    width: 100%;
+    height: 730px;
+   }
+
+    .img-phone{
+        width: 70%;
+        height: 250px;
+        margin-left: 25%;
+        margin-top: 5%;
+        rotate: -5deg;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .head-describe {
+        text-align: center;
+        font-family: 'Fraunces';
+        font-size: 5em;
+    }
+
+
+    .item{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        margin: 100px;
+       }
+
+       .item-container{
+        text-align: center;
+        align-items: center;
+        }
+
+        .nav img{
+            width: 150px;
+        }
+
+
+        .apply{
+            font-size: 1.22em;
+            width: 150px;
+        }
+
+        .btn{
+            width: 200px;
+            height: 60px;
+            font-size: 1.6em;
+        }
+        .describe-section{
+            height: 450px;
+        }
+
+        .apply-btn{
+            font-size: 1.2em;
+        }
+
+        .item-container{
+            width: 320px;
+        }
+
+
+        .pattern-1{
+            width:100%;
+            height:400px;
+            position: absolute;
+            top:15%;
+            left:-45%;
+          }
+        
+        
+          .pattern3{
+            width:100%;
+            height:200px;
+            position: absolute;
+            bottom: 90px;
+            right: -200px;
+          }
+        
+          .pattern-2{
+            width: 100%;
+            height: 180px;
+            position:absolute;
+            top: 35%;
+            right: -49%;
+          }
+
+          .img-founder {
+            width: 477px;
+            height: 477px;
+            margin-top: -100px;
+            margin-left:-200px;
+        }
+
+
+        .photo-box {
+            width: 643px;
+            height: 400px;
+            margin-top: 200px;
+        }
+        
+        .photo-box h2 {
+            color: white;
+            font-family: 'Frauces';
+            font-size:64px;
+            margin: 30px 25px 10px 25px;
+        }
+        
+        .photo-box p{
+            font-family: 'Manrope';
+            line-height: 2;
+            font-size: 18px;
+            margin: 15px 25px;
+        }
+
+        .apply-btn{
+            margin-left: 54px;
+        }
+
+    }
