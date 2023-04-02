@@ -6,6 +6,10 @@ header {
 
 }
 
+body{
+    margin: 0px;
+}
+
 @font-face {
     font-family: 'Frauces';
     src: url('./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
@@ -390,7 +394,6 @@ header{
         height: 250px;
         margin-left: 25%;
         margin-top: 5%;
-        rotate: -5deg;
     }
     main{
         display: flex;
