@@ -8,14 +8,14 @@ header {
 
 @font-face {
     font-family: 'Frauces';
-    src: url('./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+    src: url('../starter-code/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Manrope';
-    src: url('./assets/fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
+    src: url('../starter-code//assets/fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
