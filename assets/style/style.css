@@ -90,6 +90,7 @@ body {
     width: 133px;
     height: 55px;
     background-color: #44FFA1;
+    
 }
 
 .btn:hover{
@@ -103,8 +104,8 @@ body {
     max-width: 780px;
     height: 200px;
     max-height: 441px;
-    /* rotate: 6deg; */
     margin-left: 20%;
+    transform: skew(16deg,-5deg);
 }
 
 
@@ -394,6 +395,7 @@ header{
         height: 250px;
         margin-left: 25%;
         margin-top: 5%;
+        transform: skew(36deg,-6deg);
     }
     main{
         display: flex;
@@ -408,8 +410,10 @@ header{
 
 
     .item{
-        width: 200px;
+        width: 300px;
         display: flex;
+        height: 400px;
+        max-height: 400px;
         flex-direction: column;
         margin: 100px;
        }
@@ -432,7 +436,7 @@ header{
         .btn{
             width: 200px;
             height: 60px;
-            font-size: 1.6em;
+            font-size: 1.2em;
         }
         .describe-section{
             height: 450px;
